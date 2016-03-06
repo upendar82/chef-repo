@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 if node.environment == "development"
-artifact_dir = node['web_app']['s3_webapp_developmnent']
+artifact_dir = node['web_app']['s3_webapp_development']
 elsif node.environment == "production"
 artifact_dir = node['web_app']['s3_webapp_production']
 
