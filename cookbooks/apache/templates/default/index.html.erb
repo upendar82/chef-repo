@@ -1,0 +1,12 @@
+<html>
+	<body>
+	<h1>  Hello From <%= node["fqdn"] %> </h1>
+        <h2> Welcome to <%= node["company"] %></h2>
+        <p>
+		This server has <%= node["memory"]["total"].to_i / 1024 %> MB Memory
+	</p>
+	<P>
+		This is testing for environment. This is for development environment.
+	</p>
+	</body>
+</html>
